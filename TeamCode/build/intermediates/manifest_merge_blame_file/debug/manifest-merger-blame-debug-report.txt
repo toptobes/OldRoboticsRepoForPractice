@@ -12,13 +12,13 @@
 12
 13    <uses-sdk
 14        android:minSdkVersion="23"
-14-->C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\TeamCode\src\main\AndroidManifest.xml
+14-->C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\TeamCode\src\main\AndroidManifest.xml
 15        android:targetSdkVersion="28" />
-15-->C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\TeamCode\src\main\AndroidManifest.xml
+15-->C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\TeamCode\src\main\AndroidManifest.xml
 16
 17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-17-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-81
-17-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-78
+17-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-81
+17-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-78
 18    <uses-permission
 18-->[org.firstinspires.ftc:Blocks:7.1.0] C:\Users\wanna\.gradle\caches\transforms-3\5df4658701874f41489c43b855e3e9ea\transformed\jetified-Blocks-7.1.0\AndroidManifest.xml:11:5-13:35
 19        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
@@ -141,117 +141,117 @@
 83-->[org.firstinspires.ftc:RobotCore:7.1.0] C:\Users\wanna\.gradle\caches\transforms-3\ad86f28913f3da3384daae65c531de1e\transformed\jetified-RobotCore-7.1.0\AndroidManifest.xml:84:19-57
 84
 85    <application
-85-->C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\TeamCode\src\main\AndroidManifest.xml:11:5-19
+85-->C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\TeamCode\src\main\AndroidManifest.xml:11:5-19
 86        android:name="org.firstinspires.ftc.robotcore.internal.system.RobotApplication"
 86-->[org.firstinspires.ftc:RobotCore:7.1.0] C:\Users\wanna\.gradle\caches\transforms-3\ad86f28913f3da3384daae65c531de1e\transformed\jetified-RobotCore-7.1.0\AndroidManifest.xml:86:18-97
 87        android:allowBackup="true"
-87-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-35
+87-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-35
 88        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 88-->[androidx.core:core:1.3.0] C:\Users\wanna\.gradle\caches\transforms-3\678eb6d2a59280c8739e3694aef11730\transformed\core-1.3.0\AndroidManifest.xml:24:18-86
 89        android:debuggable="true"
 90        android:extractNativeLibs="true"
-90-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-41
+90-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-41
 91        android:icon="@drawable/ic_launcher"
-91-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-45
+91-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-45
 92        android:label="@string/app_name"
-92-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-41
+92-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-41
 93        android:largeHeap="true"
-93-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-33
+93-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-33
 94        android:theme="@style/AppThemeRedRC"
-94-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-45
+94-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-45
 95        android:usesCleartextTraffic="true" > <!-- Indicates to the ControlHubUpdater what the latest version of the Control Hub is that this app supports -->
-95-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-44
+95-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-44
 96        <meta-data
-96-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-26:33
+96-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-26:33
 97            android:name="org.firstinspires.latestSupportedControlHubVersion"
-97-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-78
+97-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-78
 98            android:value="1" /> <!-- The main robot controller activity -->
-98-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-30
+98-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-30
 99        <activity
-99-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-40:20
+99-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-40:20
 100            android:name="org.firstinspires.ftc.robotcontroller.internal.PermissionValidatorWrapper"
-100-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-101
+100-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-101
 101            android:configChanges="orientation|screenSize"
-101-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-59
+101-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-59
 102            android:label="@string/app_name"
-102-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-45
+102-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-45
 103            android:launchMode="singleTask"
-103-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-44
+103-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-44
 104            android:screenOrientation="fullUser" >
-104-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-49
+104-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-49
 105            <intent-filter>
-105-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-39:29
+105-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-39:29
 106                <category android:name="android.intent.category.LAUNCHER" />
-106-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:17-77
-106-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:27-74
+106-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:17-77
+106-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:27-74
 107
 108                <action android:name="android.intent.action.MAIN" />
-108-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:17-69
-108-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:25-66
+108-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:17-69
+108-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:25-66
 109            </intent-filter>
 110        </activity>
 111        <activity
-111-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:9-59:20
+111-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:9-59:20
 112            android:name="org.firstinspires.ftc.robotcontroller.internal.FtcRobotControllerActivity"
-112-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-101
+112-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-101
 113            android:configChanges="orientation|screenSize"
-113-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-59
+113-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-59
 114            android:label="@string/app_name"
-114-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-45
+114-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-45
 115            android:launchMode="singleTask"
-115-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-44
+115-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-44
 116            android:screenOrientation="fullUser" >
-116-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-49
+116-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-49
 117            <intent-filter>
-117-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-49:29
+117-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-49:29
 118                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
-118-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:17-90
-118-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:25-87
+118-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:17-90
+118-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:25-87
 119            </intent-filter>
 120
 121            <meta-data
-121-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-53:57
+121-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-53:57
 122                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
-122-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:17-79
+122-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:17-79
 123                android:resource="@xml/device_filter" />
-123-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:17-54
+123-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:17-54
 124
 125            <!-- org.firstinspires.main.entry indicates that this app is compatible with the Dragonboard Control Hub -->
 126            <meta-data
-126-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:13-58:40
+126-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:13-58:40
 127                android:name="org.firstinspires.main.entry"
-127-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:57:17-60
+127-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:57:17-60
 128                android:value="true" />
-128-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:17-37
+128-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:17-37
 129        </activity> <!-- The robot controller service in which most of the robot functionality is managed -->
 130        <service
-130-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:9-64:38
+130-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:9-64:38
 131            android:name="com.qualcomm.ftccommon.FtcRobotControllerService"
-131-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:13-76
+131-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:13-76
 132            android:enabled="true" /> <!-- Assistant that autostarts the robot controller on android boot (if it's supposed to) -->
-132-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:13-35
+132-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:13-35
 133        <receiver
-133-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:67:9-78:20
+133-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:67:9-78:20
 134            android:name="org.firstinspires.ftc.ftccommon.internal.RunOnBoot"
-134-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:68:13-78
+134-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:68:13-78
 135            android:enabled="true"
-135-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:69:13-35
+135-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:69:13-35
 136            android:exported="true"
-136-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:70:13-36
+136-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:70:13-36
 137            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
-137-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:71:13-75
+137-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:71:13-75
 138            <intent-filter>
-138-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:72:13-77:29
+138-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:72:13-77:29
 139                <category android:name="android.intent.category.DEFAULT" />
-139-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:73:17-76
-139-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:73:27-73
+139-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:73:17-76
+139-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:73:27-73
 140
 141                <action android:name="android.intent.action.BOOT_COMPLETED" />
-141-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:75:17-79
-141-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:75:25-76
+141-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:75:17-79
+141-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:75:25-76
 142                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-142-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:76:17-82
-142-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\FREIGHTFRENZYv7.0-refactor\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:76:25-79
+142-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:76:17-82
+142-->[:FtcRobotController] C:\Users\wanna\Documents\GitHub\OldRoboticsRepoForPractice\FtcRobotController\build\intermediates\merged_manifest\debug\AndroidManifest.xml:76:25-79
 143            </intent-filter>
 144        </receiver>
 145

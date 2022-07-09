@@ -21,7 +21,7 @@ import kotlin.math.absoluteValue
 
 const val LIFT_TOP = 100
 
-@TeleOp(name = "TestOp")
+@TeleOp(name = "TestOpKt")
 class TestOp : OpMode() {
     private var motors: Motors by initializableOnce()
     private var servos: Servos by initializableOnce()
