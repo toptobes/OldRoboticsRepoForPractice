@@ -11,7 +11,7 @@ class LateInitVal<T> {
 
     operator fun getValue(thisRef: Any, property: KProperty<*>): T {
         if (value is Uninitialized) {
-            throw IllegalStateException("Value isn't initialized")
+            throw IllegalStateException("Value is uninitialized")
         }
         return value as T
     }
