@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.teleops.testop
+package org.firstinspires.ftc.teamcode.teleops
 
 import com.qualcomm.hardware.bosch.BNO055IMU
 import com.qualcomm.hardware.rev.RevColorSensorV3
@@ -8,21 +8,24 @@ import com.qualcomm.robotcore.util.Range
 import org.firstinspires.ftc.robotcore.external.navigation.Orientation
 import org.firstinspires.ftc.teamcode.PIDS.LiftPID
 import org.firstinspires.ftc.teamcode.components._angularOrientation
+import org.firstinspires.ftc.teamcode.components.defaultBNO055IMUParameters
 import org.firstinspires.ftc.teamcode.components.easytoggle.EasyToggles
 import org.firstinspires.ftc.teamcode.components.logColorData
 import org.firstinspires.ftc.teamcode.components.motors.Motors
+import org.firstinspires.ftc.teamcode.components.motors.initializedMotors
 import org.firstinspires.ftc.teamcode.components.motors.logMotorData
 import org.firstinspires.ftc.teamcode.components.servos.Servos
 import org.firstinspires.ftc.teamcode.components.servos.armsPositions
+import org.firstinspires.ftc.teamcode.components.servos.initializedServos
 import org.firstinspires.ftc.teamcode.util._get
 import org.firstinspires.ftc.teamcode.util.initializableOnce
 import kotlin.math.abs
 import kotlin.math.absoluteValue
 
-const val LIFT_TOP = 100
-
 @TeleOp(name = "TestOpKt")
 class TestOp : OpMode() {
+    companion object { const val LIFT_TOP = 100 }
+
     private var motors: Motors by initializableOnce()
     private var servos: Servos by initializableOnce()
 
@@ -49,12 +52,7 @@ class TestOp : OpMode() {
     }
 
     override fun loop() {
-        toggles.apply {
-            up.state = gamepad1.dpad_up
-            down.state = gamepad1.dpad_down
-            _in.state = gamepad1.left_trigger > .5
-            out.state = gamepad1.left_bumper
-        }
+        updateToggles()
 
         drive()
         intake()
@@ -68,6 +66,13 @@ class TestOp : OpMode() {
         telemetry.update()
 
         angularOrientation = imu._angularOrientation()
+    }
+
+    private fun updateToggles() = toggles.apply {
+        up.state = gamepad1.dpad_up
+        down.state = gamepad1.dpad_down
+        _in.state = gamepad1.left_trigger > .5
+        out.state = gamepad1.left_bumper
     }
 
     private fun drive() = with(gamepad1) {

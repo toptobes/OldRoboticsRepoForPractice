@@ -21,6 +21,18 @@ fun initializedMotor(name: String, hwMap: HardwareMap, zpb: ZPB = ZPB.BRAKE, rev
         }
 }
 
+fun initializedMotors(hardwareMap: HardwareMap) = Motors().apply {
+    frontLeft = initializedMotor("FL", hardwareMap)
+    frontRight = initializedMotor("FR", hardwareMap)
+    backLeft = initializedMotor("BL", hardwareMap)
+    backRight = initializedMotor("BR", hardwareMap)
+
+    intake = initializedMotor("IN", hardwareMap, zpb = ZPB.FLOAT)
+    duck = initializedMotor("DU", hardwareMap, zpb = ZPB.FLOAT)
+
+    lift = initializedMotor("LI", hardwareMap, reversed = true)
+}
+
 fun Motors.logMotorData(telemetry: Telemetry, dataSupplier: (DcMotorEx) -> Any) {
     telemetry.addData("Front-left power:", dataSupplier(frontLeft))
     telemetry.addData("Front-right power:", dataSupplier(frontRight))

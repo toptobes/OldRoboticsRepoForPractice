@@ -3,11 +3,16 @@
 package org.firstinspires.ftc.teamcode
 
 import com.qualcomm.robotcore.hardware.*
-import org.firstinspires.ftc.teamcode.components.motors._power
 import org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit as DU
 import org.firstinspires.ftc.teamcode.util._get
 
 lateinit var hwMap: HardwareMap
+
+var DcMotorSimple._power: Number
+    get() = throw IllegalStateException("Use the 'power' property to read instead")
+    set(value) {
+        power = value.toDouble()
+    }
 
 object ProgrammingBoard1 {
     val colorSensor: ColorSensor = hwMap._get("sensor_color_distance")

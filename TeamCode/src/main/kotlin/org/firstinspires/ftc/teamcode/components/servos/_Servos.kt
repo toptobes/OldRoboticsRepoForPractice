@@ -1,6 +1,5 @@
 package org.firstinspires.ftc.teamcode.components.servos
 
-import com.qualcomm.robotcore.hardware.DcMotorSimple
 import com.qualcomm.robotcore.hardware.HardwareMap
 import com.qualcomm.robotcore.hardware.Servo
 import org.firstinspires.ftc.robotcore.external.Telemetry
@@ -24,6 +23,14 @@ var Servos.armsPositions: Double
         arm1.position = value
         arm2.position = value
     }
+
+fun initializedServos(hardwareMap: HardwareMap) = Servos().apply {
+    arm1 = initializedServo("arm1", hardwareMap, pos = .5, reversed = true)
+    arm2 = initializedServo("arm2", hardwareMap, pos = .5)
+    dep = initializedServo("dep", hardwareMap, pos = .57)
+    fold = initializedServo("fold", hardwareMap, pos = .5)
+    cap = initializedServo("cap", hardwareMap, pos = .6)
+}
 
 fun Servos.logMotorData(telemetry: Telemetry, dataSupplier: (Servo) -> Any) {
     telemetry.addData("arm1", dataSupplier(arm1))
