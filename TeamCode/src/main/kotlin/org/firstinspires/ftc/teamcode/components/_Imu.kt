@@ -16,9 +16,9 @@ fun defaultBNO055IMUParameters() = BNO055IMU.Parameters().apply {
 
 @JvmOverloads
 fun BNO055IMU._angularOrientation(
-    axesReference: AxesReference = AxesReference.INTRINSIC,
+    angleUnit: AngleUnit = AngleUnit.DEGREES,
     axesOrder: AxesOrder = AxesOrder.ZYX,
-    angleUnit: AngleUnit = AngleUnit.DEGREES
+    axesReference: AxesReference = AxesReference.INTRINSIC,
 ): Orientation {
     return getAngularOrientation(axesReference, axesOrder, angleUnit)
 }
